@@ -68,7 +68,7 @@ class AlarmClock{
   // запускает будильник
   start() {
     //проверка наличия интервала
-    if (this.intervalId !== null || this.intervalId !== undefined) {
+    if (this.intervalId) {
       return;
 
     }
